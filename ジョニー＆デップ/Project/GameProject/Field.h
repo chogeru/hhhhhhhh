@@ -1,5 +1,5 @@
 #pragma once
-#include "../Base/Base.h"
+#include "Base/Base.h"
 #include <GLLibrary.h>
 
 class Field : public Base {
