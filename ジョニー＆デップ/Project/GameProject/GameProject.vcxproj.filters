@@ -8,6 +8,9 @@
     <ClCompile Include="Field.cpp">
       <Filter>Game</Filter>
     </ClCompile>
+    <ClCompile Include="obuzyekuto.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Base">
@@ -22,6 +25,9 @@
       <Filter>Base</Filter>
     </ClInclude>
     <ClInclude Include="Field.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="obuzyekuto.h">
       <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>
