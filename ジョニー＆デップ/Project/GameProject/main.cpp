@@ -2,7 +2,7 @@
 #include <GLLibrary.h>
 #define SCREEN_WIDTH 1280
 #define SCREEN_HEIGHT 720
-
+#include"Field.h"
 #include "Base/Base.h"
 
 //--------------------------------------------
@@ -60,6 +60,9 @@ void Init(void)
 	//ƒQ[ƒ€‹N“®‚Éˆê“x‚¾‚¯ŒÄ‚Î‚ê‚é
 	//-----------------------------------------------------
 
+;
+	ADD_RESOURCE("Map", CImage::CreateImage("Image/Map.png"));
+	ADD_RESOURCE("ForeGround", CImage::CreateImage("Image/ForeGround.png"));
 
 	
 
