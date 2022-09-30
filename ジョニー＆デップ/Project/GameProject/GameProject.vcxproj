@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AnimData.cpp" />
     <ClCompile Include="Base\Base.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Field.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AnimData.h" />
     <ClInclude Include="Base\Base.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Field.h" />

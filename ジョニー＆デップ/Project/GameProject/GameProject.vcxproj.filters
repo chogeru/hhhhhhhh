@@ -11,6 +11,9 @@
     <ClCompile Include="Enemy.cpp">
       <Filter>Game</Filter>
     </ClCompile>
+    <ClCompile Include="AnimData.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Base">
@@ -28,6 +31,9 @@
       <Filter>Game</Filter>
     </ClInclude>
     <ClInclude Include="Enemy.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimData.h">
       <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>
