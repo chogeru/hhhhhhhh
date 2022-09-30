@@ -8,6 +8,12 @@
     <ClCompile Include="Field.cpp">
       <Filter>Game</Filter>
     </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimData.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Base">
@@ -22,6 +28,12 @@
       <Filter>Base</Filter>
     </ClInclude>
     <ClInclude Include="Field.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimData.h">
       <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>
