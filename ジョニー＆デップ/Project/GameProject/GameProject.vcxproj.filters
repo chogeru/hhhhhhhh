@@ -8,7 +8,14 @@
     <ClCompile Include="Field.cpp">
       <Filter>Game</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="obuzyekuto.cpp">
+=======
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimData.cpp">
+>>>>>>> a71086bc3a8a674577d6e6735a5584accdf91792
       <Filter>Game</Filter>
     </ClCompile>
   </ItemGroup>
@@ -27,7 +34,14 @@
     <ClInclude Include="Field.h">
       <Filter>Game</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="obuzyekuto.h">
+=======
+    <ClInclude Include="Enemy.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimData.h">
+>>>>>>> a71086bc3a8a674577d6e6735a5584accdf91792
       <Filter>Game</Filter>
     </ClInclude>
   </ItemGroup>

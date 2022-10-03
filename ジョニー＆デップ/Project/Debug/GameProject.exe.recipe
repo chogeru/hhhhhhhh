@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>C:\Users\taiga0513\Desktop\-\ジョニー＆デップ\Game\GameProject.exe</FullPath>
+=======
+      <FullPath>C:\Users\haya7\Desktop\ジョニー＆デップ\Game\GameProject.exe</FullPath>
+>>>>>>> a71086bc3a8a674577d6e6735a5584accdf91792
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

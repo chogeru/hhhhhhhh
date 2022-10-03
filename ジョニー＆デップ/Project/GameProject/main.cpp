@@ -4,7 +4,7 @@
 #define SCREEN_HEIGHT 720
 #include"Field.h"
 #include "Base/Base.h"
-
+#include"Enemy.h"
 //--------------------------------------------
 //グローバル変数領域
 //--------------------------------------------
@@ -64,7 +64,21 @@ void Init(void)
 	ADD_RESOURCE("Map", CImage::CreateImage("Image/Map.png"));
 	ADD_RESOURCE("ForeGround", CImage::CreateImage("Image/ForeGround.png"));
 
-	
+	//-----------------------------------------------------
+//初期化の命令を書く
+//ゲーム起動時に一度だけ呼ばれる
+//-----------------------------------------------------
+
+//画像の読み込みと登録　”リソース名”　　　　”ファイル名” , アニメーションデータ , 幅 , 高さ
+	//ADD_RESOURCE("Player", CImage::CreateImage("Image/Player.png", player_anim_data, 256, 256));
+	//ADD_RESOURCE("Enemy", CImage::CreateImage("Image/Enemy.png", enemy_anim_data, 256, 256));
+	//プレイヤーの生成
+	//Base::Add(new Player(CVector2D(200, 500), false));
+	//敵のの生成
+	Base::Add(new Enemy(CVector2D(800, 500), true));
+
+
+
 
 
 
